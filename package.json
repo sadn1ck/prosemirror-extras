@@ -1,0 +1,15 @@
+{
+  "name": "@sadn1ck/prosemirror-extras",
+  "private": true,
+  "description": "Personal collection of ProseMirror plugins and utilities",
+  "keywords": [],
+  "author": "Anik Das <anikdas0811@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "prosemirror-test-builder": "^1.1.1",
+    "typescript": "^5.7.2",
+    "unbuild": "^3.2.0",
+    "vitest": "^2.1.8"
+  }
+}

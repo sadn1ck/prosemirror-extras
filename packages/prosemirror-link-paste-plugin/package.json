@@ -1,0 +1,33 @@
+{
+  "name": "@sadn1ck/prosemirror-link-paste-plugin",
+  "version": "0.0.1",
+  "description": "Plugin that allows users to paste links into the editor and have it converted to a link mark per the schema.",
+  "keywords": [],
+  "author": "Anik Das <anikdas0811@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "linkifyjs": "^4.2.0",
+    "prosemirror-model": "^1.24.1",
+    "prosemirror-state": "^1.4.3"
+  },
+  "peerDependencies": {
+    "prosemirror-model": "^1.24.1",
+    "prosemirror-state": "^1.4.3",
+    "linkifyjs": "^4.2.0"
+  },
+  "------------------build----------------": "",
+  "type": "module",
+  "scripts": {
+    "build": "unbuild",
+    "prepack": "unbuild"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.mts",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "files": [
+    "dist"
+  ]
+}
