@@ -86,6 +86,8 @@ export function createLinkPastePlugin(options: LinkPastePluginOptions): Plugin {
           view.dispatch(tr);
 
           onPasteSuccess?.();
+
+          return true;
         } catch (error) {
           onPasteFailure?.(error instanceof Error ? error.message : undefined);
         }
