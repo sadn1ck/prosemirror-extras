@@ -1,6 +1,6 @@
 {
   "name": "@sadn1ck/prosemirror-link-paste-plugin",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Plugin that allows users to paste links into the editor and have it converted to a link mark per the schema.",
   "keywords": [],
   "author": "Anik Das <anikdas0811@gmail.com>",
